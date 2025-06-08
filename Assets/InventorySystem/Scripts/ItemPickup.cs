@@ -7,7 +7,7 @@ public class ItemPickup : MonoBehaviour {
         if (other.CompareTag("Player")) {
             if (Inventory.Instance != null) {
                 Inventory.Instance.AddItem(item); // Add the item to the player's inventory
-                Destroy(gameObject); // Remove the object from the scene
+                //Destroy(gameObject); // Remove the object from the scene
             }
         }
     }

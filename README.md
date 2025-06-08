@@ -1,6 +1,6 @@
 # 🎒 Unity Modular Inventory System
 
-A flexible, open-source **modular inventory system** for Unity (2D or 3D), designed to be beginner-friendly, extensible, and game-ready. This system supports drag-and-drop interaction, stackable items, ScriptableObject-based item definitions, and a clean separation between data, logic, and UI.
+A flexible, open-source **modular inventory system** for Unity (2D or 3D), designed to be beginner-friendly, extensible, and game-ready. This system supports stackable items, ScriptableObject-based item definitions, and a clean separation between data, logic, and UI.
 
 ---
 
