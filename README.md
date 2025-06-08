@@ -116,8 +116,8 @@ This system follows the **separation of concerns** principle:
 
 ## 🖼️ Screenshots
 
-![Screenshot](Assets/ReadmeImages/Screenshot 1.png)
-![Project Window](Assets/ReadmeImages/Project Window.png)
+![Screenshot](Assets/ReadmeImages/Screenshot%201.png)
+![Project Window](Assets/ReadmeImages/Project%20Window.png)
 
 
 ---
