@@ -37,7 +37,7 @@ A flexible, open-source **modular inventory system** for Unity (2D or 3D), desig
 
 ### Prerequisites
 
-- Unity 2021.3 LTS or later (any recent LTS is fine)
+- Unity 6000.0.50f1 (or compatible newer versions)
 - A basic understanding of Unity (GameObjects, Components, ScriptableObjects)
 
 ### 1. Clone the Repository
