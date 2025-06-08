@@ -43,7 +43,7 @@ A flexible, open-source **modular inventory system** for Unity (2D or 3D), desig
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/UnityModularInventorySystem.git
+git clone https://github.com/usmanbutt-dev/UnityModularInventorySystem.git
 ```
 
 Or download the ZIP from the GitHub page and extract it.
@@ -152,8 +152,8 @@ You can freely use, modify, and distribute it with credit. See the [LICENSE](LIC
 
 **Muhammad Usman Butt**  
 Unity Developer | VR & 2D/3D Game Design  
-GitHub: [@yourusername](https://github.com/yourusername)  
-LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+GitHub: [@usmanbutt-dev](https://github.com/usmanbutt-dev)  
+LinkedIn: [linkedin.com/in/usmanbutt-dev](https://linkedin.com/in/usmanbutt-dev)
 
 ---
 
