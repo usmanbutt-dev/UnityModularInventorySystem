@@ -66,19 +66,25 @@ Or download the ZIP from the GitHub page and extract it.
 ```
 Assets/
 ├── InventorySystem/
+│   ├── Items/
+│   │   ├── Apple.asset
+│   │   ├── Axe.asset
+│   │   ├── Bow.asset
+│   │   └── Sword.asset
+│   ├── Prefabs/
+│   │   ├── Apple Prefab.prefab
+│   │   ├── Axe Prefab.prefab
+│   │   ├── Bow Prefab.prefab
+│   │   ├── Complete Inventory Prefab.prefab
+│   │   ├── Item UI Prefab.prefab
+│   │   ├── ItemDrop Prefab.prefab
+│   │   └── Sword Prefab.prefab
 │   ├── Scripts/
-│   │   ├── ItemData.cs              // ScriptableObject definition
-│   │   ├── InventorySlot.cs         // Slot logic and stacking
-│   │   ├── InventoryManager.cs      // Central controller for the system
-│   │   └── DragHandler.cs           // Handles UI drag-and-drop
-│   ├── UI/
-│   │   ├── InventorySlotUI.prefab   // Prefab for each inventory slot
-│   │   └── InventoryPanel.prefab    // Main inventory UI container
-│   ├── Data/
-│   │   └── ExampleItem.asset        // Example item ScriptableObject
-│   └── Demo/
-│       ├── DemoPlayer.prefab
-│       └── InventoryDemo.unity
+│   │   ├── Inventory.cs
+│   │   ├── InventoryController.cs
+│   │   ├── Item.cs
+│   │   ├── ItemPickup.cs
+│   │   └── ItemUI.cs
 ├── Scenes/
 │   └── InventoryDemo.unity
 ├── Packages/
@@ -110,7 +116,9 @@ This system follows the **separation of concerns** principle:
 
 ## 🖼️ Screenshots
 
-> (Add screenshots or GIFs of the inventory in use)
+![Screenshot](Assets/ReadmeImages/Screenshot 1.png)
+![Project Window](Assets/ReadmeImages/Project Window.png)
+
 
 ---
 

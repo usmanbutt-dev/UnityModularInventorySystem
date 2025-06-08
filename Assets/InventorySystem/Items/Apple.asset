@@ -16,4 +16,4 @@ MonoBehaviour:
   icon: {fileID: -7832214784768987486, guid: 9c5ecedcaa1ef974190981d36b3bd765, type: 3}
   description: This is an Apple
   isStackable: 1
-  maxStack: 1
+  maxStack: 2

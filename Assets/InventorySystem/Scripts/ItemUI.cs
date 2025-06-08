@@ -43,6 +43,7 @@ public class ItemUI : MonoBehaviour, IPointerClickHandler {
     private void UseItem() {
         Debug.Log("Used item: " + item.itemName);
         // Optional: implement item effect logic here
+        Destroy(this.gameObject);
     }
 
     private void DropItem() {
