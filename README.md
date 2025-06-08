@@ -96,16 +96,30 @@ Assets/
 
 ## 🧠 How It Works
 
-1. **ItemData.cs**
-   - Defines item name, icon, description, and stack limit using ScriptableObjects.
-2. **InventorySlot.cs**
-   - Manages which item is held, the quantity, and operations like adding/removing stacks.
-3. **InventoryManager.cs**
-   - Centralized control that initializes inventory and links data with UI.
-4. **InventorySlotUI.prefab**
-   - Represents a visual inventory slot, auto-updates when the slot's data changes.
-5. **DragHandler.cs**
-   - Allows items to be dragged and dropped between slots with visual feedback.
+1. **Item.cs**  
+   - A `ScriptableObject` that defines the core properties of each item:  
+     `itemName`, `icon`, `description`, `isStackable`, and `maxStack`.  
+   - Stored under `Assets/InventorySystem/Items/`.
+
+2. **Inventory.cs**  
+   - Manages a list of picked-up items.  
+   - Adds new items to the inventory UI using the `Item UI Prefab`.  
+   - Handles stackable logic: increases count if an item already exists and is under max stack.
+
+3. **ItemPickup.cs**  
+   - Attached to in-world item prefabs (e.g., `Apple Prefab`, `Sword Prefab`).  
+   - Detects collision with the player and sends the item to `Inventory`.
+
+4. **ItemUI.cs**  
+   - Attached to UI items instantiated in the inventory (`Item UI Prefab`).  
+   - Handles click actions:
+     - **Left Click**: Uses the item (e.g., logs "Used item: Apple").
+     - **Right Click**: Drops the item into the world near the player using `ItemDrop Prefab`.
+
+5. **ItemDrop Prefab**  
+   - A 2D/3D drop version of the item that spawns when an item is dropped.  
+   - Retains the original `Item` data and can be picked up again.
+
 
 This system follows the **separation of concerns** principle:
 - Data is in ScriptableObjects
