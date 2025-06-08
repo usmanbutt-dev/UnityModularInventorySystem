@@ -12,6 +12,10 @@ public class Inventory : MonoBehaviour {
         Instance = this;
     }
 
+    private void Start() {
+        this.gameObject.SetActive(false);
+    }
+
     public void ToggleInventory() {
         gameObject.SetActive(!gameObject.activeSelf);
     }
